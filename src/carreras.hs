@@ -20,7 +20,7 @@ distanciaEntreAutos auto1 auto2 = abs(distanciaRecorrida auto1 - distanciaRecorr
 
 --b)
 vaTranquilo :: Auto -> Carrera -> Bool
-vaTranquilo auto carrera = (not . tieneAutoCerca auto) carrera && vaGanandoo auto carrera
+vaTranquilo auto carrera = (not . tieneAutoCerca auto) carrera && vaGanando auto carrera
 
 tieneAutoCerca:: Auto -> Carrera -> Bool
 tieneAutoCerca auto = any (estaCerca auto)
