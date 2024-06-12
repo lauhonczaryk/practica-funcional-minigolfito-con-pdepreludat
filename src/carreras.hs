@@ -1,6 +1,5 @@
 module Lib where
 import PdePreludat
-import GHC.RTS.Flags (ParFlags(migrate))
 
 data Auto = Auto {
     color :: String,
